@@ -1,4 +1,6 @@
 <?php
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Hyunjun Oh
 declare(strict_types=1);
 
 session_start();
