@@ -1,3 +1,13 @@
+document.querySelectorAll('nav.nav a').forEach(link => {
+    link.addEventListener('click', (e) => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#') && !isLoggedIn) {
+            e.preventDefault();
+            window.location.href = 'auth/require-login.php'; // or '/auth/require-login.php' if you prefer absolute
+        }
+    });
+});
+
 let clubs = [];
 
 const grid = document.getElementById("clubGrid");

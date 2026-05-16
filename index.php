@@ -14,6 +14,9 @@ $user = $_SESSION['user'] ?? null;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tiger Clubs Portal</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+        const isLoggedIn = <?= json_encode($isLoggedIn) ?>;
+    </script>
 </head>
 <body>
 <header class="topbar">

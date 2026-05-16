@@ -36,14 +36,14 @@ $staffUrl = buildGoogleAuthUrl(
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login - SIS Clubs</title>
+    <title>Login - Tiger Clubs Portal</title>
     <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
 <header class="topbar">
     <div class="brand">
         <div class="brand-mark">S</div>
-        <span>SIS Clubs</span>
+        <span>Tiger Clubs Portal</span>
     </div>
     <nav class="nav">
         <a href="../index.php">Home</a>
